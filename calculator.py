@@ -2,7 +2,7 @@ num1=int(input("Enter number 1: "))
 num2=int(input("Enter number 2: "))
 
 print("Enter the operation to be performed(+,-,/-%)")
-op=input()
+op=input() 
 if op=="+":
     print(f"Addition of {num1} and {num2} ={num1+num2}")
 elif op=="-":
